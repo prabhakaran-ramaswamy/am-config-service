@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.sample.capstone</groupId>
-	<artifactId>am-limit-service</artifactId>
+	<artifactId>am-config-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>am-limit-service</name>
+	<name>am-config-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
