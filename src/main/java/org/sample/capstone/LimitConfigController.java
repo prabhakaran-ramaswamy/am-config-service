@@ -15,6 +15,8 @@ public class LimitConfigController {
 	@GetMapping("/limits")
 	@HystrixCommand(fallbackMethod = "fallbackRetrieveConfiguration")
 	public LimitConfig getLimitConfigs() {
+		if(limitConfig.getMinimum()<1 || limitConfig.getMaximum()<1)
+			throw new RuntimeException("values are not loaded");
 		return limitConfig;
 	}
 
