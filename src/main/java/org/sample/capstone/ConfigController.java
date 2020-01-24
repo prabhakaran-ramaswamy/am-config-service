@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 @RestController
-public class LimitConfigController {
+public class ConfigController {
 
 	@Autowired
 	private LimitConfig limitConfig;
